@@ -109,6 +109,7 @@ node app.js
 
 ## 배포
 
+### 배포 링크 : https://eating-mark-fe.vercel.app/
 > 배포는 vercel에서 진행 
 > 로컬 환경에서 서버를 실행시켜야 제대로 실행 가능합니다.
 
