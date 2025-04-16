@@ -23,6 +23,7 @@ const RestaurantCard = ({ item }) => {
       <img
         src={`http://localhost:3000/${item.image.src}`}
         className="w-full h-40 object-cover"
+        alt={item.image.alt}
       />
       <div className="text-sm text-center mt-3">{item.title}</div>
     </div>
