@@ -35,8 +35,8 @@ const RestaurantSection = ({ title, type }) => {
         )}
       </div>
 
-      <div className="flex flex-wrap justify-start w-full max-w-4xl gap-4">
-        {loading ? (
+      <div className="w-full flex justify-center">
+      {loading ? (
           <p className="text-center mt-10">로딩 중...</p>
         ) : error ? (
           <p className="text-center mt-10 text-red-500">{error}</p>

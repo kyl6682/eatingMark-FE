@@ -11,6 +11,7 @@ const RestaurantCard = ({ item }) => {
     } 
     else addToPinned(item);
   };
+  
   return (
     <div className="relative w-44 h-52 flex-col bg-gray-100 rounded-md flex items-center overflow-hidden">
       <button 

@@ -5,7 +5,7 @@ const RestaurantCardList = ({ items }) => {
 
 
   return (
-    <div className="flex flex-wrap justify-start w-full max-w-4xl gap-4">
+    <div className="flex flex-wrap justify-start w-full max-w-3xl gap-4">
       {items
         .filter((item) => item && item.id)
         .map((item) => (
